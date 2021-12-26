@@ -1,5 +1,6 @@
 # DB側の型
-from sqlalchemy import Column, ForeignKey, Integer, String, DateTime
+from sqlalchemy import Column, DateTime, ForeignKey, Integer, String
+
 from .database import Base
 
 

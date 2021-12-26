@@ -1,5 +1,6 @@
 from typing import List
-from fastapi import FastAPI, Depends
+
+from fastapi import Depends, FastAPI
 from sqlalchemy.orm import Session
 
 from . import crud, models, schemas

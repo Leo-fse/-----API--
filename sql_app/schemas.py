@@ -1,5 +1,6 @@
 # FastAPI側の型
 import datetime
+
 from pydantic import BaseModel, Field
 
 
